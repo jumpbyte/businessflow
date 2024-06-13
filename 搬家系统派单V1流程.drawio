@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T13:33:09.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="V1NWFdhdolgbWfbapaGR" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T15:06:46.522Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="FWEEHzpfNPe_RGd0mv-Z" version="24.5.4" type="github">
   <diagram name="第 1 页" id="b3sivmyG9d-5zrtZYTdN">
-    <mxGraphModel dx="3274" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2928" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,26 +207,26 @@
             <mxPoint x="865" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xlOSDeAx9s_wz7Okl9qu-1" value="非自营&lt;div&gt;抢单池抢派&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-1" value="抢单池抢派" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="805" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xlOSDeAx9s_wz7Okl9qu-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-5" target="xlOSDeAx9s_wz7Okl9qu-7" edge="1">
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xlOSDeAx9s_wz7Okl9qu-5" target="NaWqrAB4nuYRskQkqhNC-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-5" value="多条件过滤司机&lt;div&gt;按评分排序&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="805" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="805" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-7" target="xlOSDeAx9s_wz7Okl9qu-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-7" value="分桶排序司机&lt;div&gt;(金/银/铜/其它)&lt;div&gt;最多分4个桶&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="805" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="805" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-9" target="xlOSDeAx9s_wz7Okl9qu-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-9" value="取第一个桶的司机&lt;div&gt;推入抢单池&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="805" y="1120" width="120" height="60" as="geometry" />
+          <mxGeometry x="805" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-11" target="xlOSDeAx9s_wz7Okl9qu-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -239,98 +239,169 @@
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-17" target="xlOSDeAx9s_wz7Okl9qu-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1140" y="920" as="targetPoint" />
+            <mxPoint x="1090" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-17" value="实时单抢派" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1030" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-19" target="xlOSDeAx9s_wz7Okl9qu-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-19" value="多条件过滤司机&lt;div&gt;按评分排序&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="1030" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-21" target="xlOSDeAx9s_wz7Okl9qu-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-21" value="分桶排序司机&lt;div&gt;(金银//铜)&lt;div&gt;最多分2个桶&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="1030" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-23" target="xlOSDeAx9s_wz7Okl9qu-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-23" value="取第一个桶的司机&lt;div&gt;推入抢单池&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="1120" width="120" height="60" as="geometry" />
+          <mxGeometry x="1030" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-25" target="xlOSDeAx9s_wz7Okl9qu-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-25" value="剩余司机存储缓存&lt;div&gt;发送下一轮推送延迟MQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="1230" width="120" height="60" as="geometry" />
+          <mxGeometry x="1030" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-26" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1085" y="1340" width="110" height="60" as="geometry" />
+          <mxGeometry x="1035" y="1340" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-27" target="xlOSDeAx9s_wz7Okl9qu-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-27" value="兜底强指派" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="1590" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-28" target="xlOSDeAx9s_wz7Okl9qu-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-28" value="查询城市&lt;div&gt;强指派车队配置&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="1590" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-30" target="xlOSDeAx9s_wz7Okl9qu-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-30" value="从配置的车队列表&lt;div&gt;随机选择一个&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="1590" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-32" target="xlOSDeAx9s_wz7Okl9qu-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-32" value="订单绑定车队" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="1230" width="120" height="60" as="geometry" />
+          <mxGeometry x="1590" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-34" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1365" y="1350" width="110" height="60" as="geometry" />
+          <mxGeometry x="1595" y="1350" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-1" target="NaWqrAB4nuYRskQkqhNC-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-1" value="自营司机抢派&amp;nbsp;&lt;div&gt;I 和 II&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-2" target="NaWqrAB4nuYRskQkqhNC-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-2" value="多条件过滤司机&lt;div&gt;按评分排序&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="1110" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-4" target="NaWqrAB4nuYRskQkqhNC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-4" value="获取自营司机列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="1000" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-7" target="NaWqrAB4nuYRskQkqhNC-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-7" value="取第一个司机&lt;div&gt;推入抢单池&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="1230" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-9" target="NaWqrAB4nuYRskQkqhNC-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-9" value="剩余司机存储缓存&lt;div&gt;发送下一轮推送延迟MQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="1350" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-11" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-155" y="1460" width="110" height="60" as="geometry" />
+          <mxGeometry x="585" y="1340" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-17" target="xlOSDeAx9s_wz7Okl9qu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-17" value="司机距离过滤&lt;div&gt;(目前20公里内)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="NaWqrAB4nuYRskQkqhNC-24" target="NaWqrAB4nuYRskQkqhNC-26" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-24" value="夜间派单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="NaWqrAB4nuYRskQkqhNC-26" target="NaWqrAB4nuYRskQkqhNC-35" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-26" value="多条件过滤司机&lt;div&gt;按评分排序&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" target="NaWqrAB4nuYRskQkqhNC-30" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="1150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-30" target="NaWqrAB4nuYRskQkqhNC-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-30" value="取自营中top 1&lt;div&gt;无自营则在过滤司机中取top 1&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-33" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="1350" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-35" target="NaWqrAB4nuYRskQkqhNC-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-35" value="司机距离过滤&lt;div&gt;先筛选10公里&lt;/div&gt;&lt;div&gt;在筛选20公里&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-36" target="NaWqrAB4nuYRskQkqhNC-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NaWqrAB4nuYRskQkqhNC-38">
+          <mxGeometry x="-0.3733" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-36" target="NaWqrAB4nuYRskQkqhNC-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-42" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NaWqrAB4nuYRskQkqhNC-41">
+          <mxGeometry x="-0.4296" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-36" value="是否跨城" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="1060" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-40" target="NaWqrAB4nuYRskQkqhNC-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-40" value="&lt;div&gt;在过滤司机中&lt;/div&gt;&lt;div&gt;取top 1&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1070" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-45" target="NaWqrAB4nuYRskQkqhNC-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-45" value="直接指派&lt;div&gt;(acceptOrder)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1272.5" y="1270" width="115" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
