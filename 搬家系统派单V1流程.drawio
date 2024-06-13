@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T13:29:28.732Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="wolBHVujiCwhzcEH5o1S" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T13:33:09.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="V1NWFdhdolgbWfbapaGR" version="24.5.4" type="github">
   <diagram name="第 1 页" id="b3sivmyG9d-5zrtZYTdN">
     <mxGraphModel dx="3274" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -231,7 +231,7 @@
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-11" target="xlOSDeAx9s_wz7Okl9qu-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xlOSDeAx9s_wz7Okl9qu-11" value="剩余司机存储缓存&lt;div&gt;发送下一轮延迟MQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-11" value="剩余司机存储缓存&lt;div&gt;发送下一轮推送延迟MQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="805" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-13" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -254,7 +254,7 @@
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-21" target="xlOSDeAx9s_wz7Okl9qu-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xlOSDeAx9s_wz7Okl9qu-21" value="分桶排序司机&lt;div&gt;(金/银/铜)&lt;div&gt;最多分3个桶&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-21" value="分桶排序司机&lt;div&gt;(金银//铜)&lt;div&gt;最多分2个桶&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-23" target="xlOSDeAx9s_wz7Okl9qu-25" edge="1">
@@ -266,7 +266,7 @@
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xlOSDeAx9s_wz7Okl9qu-25" target="xlOSDeAx9s_wz7Okl9qu-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xlOSDeAx9s_wz7Okl9qu-25" value="剩余司机存储缓存&lt;div&gt;发送下一轮延迟MQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-25" value="剩余司机存储缓存&lt;div&gt;发送下一轮推送延迟MQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xlOSDeAx9s_wz7Okl9qu-26" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -326,7 +326,7 @@
         <mxCell id="NaWqrAB4nuYRskQkqhNC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NaWqrAB4nuYRskQkqhNC-9" target="NaWqrAB4nuYRskQkqhNC-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NaWqrAB4nuYRskQkqhNC-9" value="剩余司机存储缓存&lt;div&gt;发送下一轮延迟MQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NaWqrAB4nuYRskQkqhNC-9" value="剩余司机存储缓存&lt;div&gt;发送下一轮推送延迟MQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-160" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NaWqrAB4nuYRskQkqhNC-11" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
