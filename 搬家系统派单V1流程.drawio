@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T08:17:46.746Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="e6C5eF_9PmZOQ3B4d2rF" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T08:25:41.193Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="TQ1DaRE6EDHWycv3T6Yv" version="24.5.4" type="github">
   <diagram name="第 1 页" id="b3sivmyG9d-5zrtZYTdN">
     <mxGraphModel dx="2634" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -112,14 +112,6 @@
         <mxCell id="RsnU13scQ3cfRyJQo0AK-40" value="派给自营司机" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RsnU13scQ3cfRyJQo0AK-46" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsnU13scQ3cfRyJQo0AK-41" target="RsnU13scQ3cfRyJQo0AK-45">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="960" y="250" />
-              <mxPoint x="960" y="250" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RsnU13scQ3cfRyJQo0AK-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RsnU13scQ3cfRyJQo0AK-41" target="RsnU13scQ3cfRyJQo0AK-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -128,14 +120,19 @@
             <mxPoint x="-1" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RsnU13scQ3cfRyJQo0AK-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RsnU13scQ3cfRyJQo0AK-41" target="RsnU13scQ3cfRyJQo0AK-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsnU13scQ3cfRyJQo0AK-69" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RsnU13scQ3cfRyJQo0AK-68">
+          <mxGeometry x="-0.1538" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RsnU13scQ3cfRyJQo0AK-41" value="是否夜间订单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="210" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RsnU13scQ3cfRyJQo0AK-44" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;晚9:00-早9:00（可配置）&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="170" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="RsnU13scQ3cfRyJQo0AK-45" value="夜间派单逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RsnU13scQ3cfRyJQo0AK-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RsnU13scQ3cfRyJQo0AK-47" target="RsnU13scQ3cfRyJQo0AK-59">
           <mxGeometry relative="1" as="geometry">
@@ -201,6 +198,9 @@
         </mxCell>
         <mxCell id="RsnU13scQ3cfRyJQo0AK-65" value="自营司机抢派 II" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="1201" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RsnU13scQ3cfRyJQo0AK-67" value="夜间派单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="220" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
