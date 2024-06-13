@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T08:50:30.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RWs_ryufVqRjnL9wPJdl" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T10:12:25.659Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="2LYYuAjx1jjGTSU12JxI" version="24.5.4" type="github">
   <diagram name="第 1 页" id="b3sivmyG9d-5zrtZYTdN">
     <mxGraphModel dx="3028" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -201,6 +201,41 @@
         </mxCell>
         <mxCell id="RsnU13scQ3cfRyJQo0AK-67" value="夜间派单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xlOSDeAx9s_wz7Okl9qu-1" target="xlOSDeAx9s_wz7Okl9qu-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-1" value="抢单池抢派" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xlOSDeAx9s_wz7Okl9qu-5" target="xlOSDeAx9s_wz7Okl9qu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-5" value="多条件过滤司机" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xlOSDeAx9s_wz7Okl9qu-7" target="xlOSDeAx9s_wz7Okl9qu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-7" value="排序司机&lt;div&gt;(金/银铜/其它)&lt;div&gt;最多分4个桶&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xlOSDeAx9s_wz7Okl9qu-9" target="xlOSDeAx9s_wz7Okl9qu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-9" value="取第一个桶的司机&lt;div&gt;推入待抢池&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xlOSDeAx9s_wz7Okl9qu-11" target="xlOSDeAx9s_wz7Okl9qu-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-11" value="剩余司机存储缓存&lt;div&gt;发送下一轮延迟MQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlOSDeAx9s_wz7Okl9qu-13" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1340" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
